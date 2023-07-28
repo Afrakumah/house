@@ -4,7 +4,7 @@
 .header {
     display: flex;
     justify-content: space-around;
-    background-color:#211e22;
+    background-color:#353136;
     height: 3rem;
     margin-right: 1rem;
 }
@@ -85,18 +85,22 @@
 
 .search_keyword {
     display: flex;
-    align-items: center;
     justify-content: center;
+    gap: 10px;
+    color: #fff;
+    margin-top: 0.5rem;
+    padding-right: 4rem;
 }
 
-.search_keyword nav ul {
-    list-style: none;
-    display: flex;
-    gap: 10px;  
-    border-radius: 1px
+.search_buttons button {
+    background-color: #fff;
+} 
+
+.search_keyword .search_buttons span button {
+    background-color: orangered;
+    color: #fff;
 }
 
-.search_keyword nav {
-    border-radius: 1px;
-    border: 1px;
+.search_keyword input {
+    width: 30%;
 }
