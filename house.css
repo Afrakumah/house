@@ -82,3 +82,21 @@
     font-weight: 400; 
 }
 
+
+.search_keyword {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_keyword nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;  
+    border-radius: 1px
+}
+
+.search_keyword nav {
+    border-radius: 1px;
+    border: 1px;
+}
