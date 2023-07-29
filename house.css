@@ -31,6 +31,7 @@
 .background_mage {
   background-image: url(./images/interior1.jpg);
   background-size: cover;
+  height: 100vh;
 }
 
 .logo_menu {
@@ -39,6 +40,7 @@
   justify-content: space-evenly;
   padding: 2rem 4rem;
   color: #fff;
+  margin-top: 2rem;
 }
 
 .logo_menu nav ul {
@@ -67,11 +69,12 @@
   flex-direction: column;
   color: #fff;
   padding-left: 19%;
+  margin-top: 5%;
 }
 
 .Amazing span {
   font-family: "Roboto", cursive;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 400;
 }
 
@@ -79,7 +82,7 @@
   font-family: "Roboto", cursive;
   font-size: 1.5rem;
   font-weight: 500;
-  margin-bottom: 10%;
+  margin-top: 2rem;
 }
 
 .search_keyword {
@@ -88,8 +91,36 @@
   gap: 10px;
   color: #fff;
   margin-top: 0.5rem;
-  padding-right: 4rem;
 }
+
+
+/* trying seaarch keyword */
+ /* .search_keyword.input_icons i {
+  position: absolute;
+}
+
+ .search_keyword .input_icons {
+  margin-bottom: 10px;
+}
+
+.search_keyword.input_field {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.search_keyword .input_icons .fa-light fa-magnifying-glass {
+  padding: 10px;
+  text-align: center;
+  color: blue;
+  min-width: 50px;
+} */
+
+
+.search_keyword.input_field {
+  width: 100% 
+}
+
 
 .search_buttons button {
   background-color: #fff;
@@ -100,6 +131,6 @@
   color: #fff;
 }
 
-.search_keyword input {
+/* .search_keyword input {
   width: 30%;
-}
+} */
