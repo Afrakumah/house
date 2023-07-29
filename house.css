@@ -1,106 +1,105 @@
- @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Oswald&family=Outfit:wght@500&family=Roboto:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Oswald&family=Outfit:wght@500&family=Roboto:wght@300&display=swap");
 
 .header {
-    display: flex;
-    justify-content: space-around;
-    background-color:#353136;
-    height: 3rem;
-    margin-right: 1rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: #353136;
+  height: 2rem;
+  margin-right: 1rem;
+  align-items: center;
 }
 
 .icons nav ul {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .icons nav li {
-    list-style: none;
+  list-style: none;
 }
 
 .icons nav ul li a {
-    color: #fff;
+  color: #fff;
 }
 
 .contact {
-    display: flex;
-    gap: 10px;
-    color: #fff;
+  display: flex;
+  gap: 10px;
+  color: #fff;
 }
 
-
-.main_page {
-    background-image: url(./images/main\ interior.jpg);
-    background-size: cover;
-    }
+.background_mage {
+  background-image: url(./images/interior1.jpg);
+  background-size: cover;
+}
 
 .logo_menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 2rem 4rem;
-    color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem 4rem;
+  color: #fff;
 }
 
 .logo_menu nav ul {
-    display: flex;
-    gap: 10px;
-    list-style: none;
+  display: flex;
+  gap: 10px;
+  list-style: none;
 }
 
- .logo_menu nav ul li a {
-    text-decoration: none;
-    color: #fff;
+.logo_menu nav ul li a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .logo_menu span {
-    font-family: "Roboto", cursive;
-    font-size: 1.5rem;
-    font-weight: 600;
+  font-family: "Roboto", cursive;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
-.main_page .logo_menu .mmmmm li a {
-    color: orangered;   
+.main_page .logo_menu .contact_color li a {
+  color: orangered;
 }
 
 .overview {
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    padding-left: 19%;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding-left: 19%;
 }
 
 .Amazing span {
-    font-family: "Roboto", cursive;
-    font-size: 2rem;
-    font-weight: 400;
+  font-family: "Roboto", cursive;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 .overview_price {
-    font-family: "Roboto", cursive;
-    font-size: 1rem;
-    font-weight: 400; 
+  font-family: "Roboto", cursive;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 10%;
 }
 
-
 .search_keyword {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    color: #fff;
-    margin-top: 0.5rem;
-    padding-right: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #fff;
+  margin-top: 0.5rem;
+  padding-right: 4rem;
 }
 
 .search_buttons button {
-    background-color: #fff;
-} 
+  background-color: #fff;
+}
 
 .search_keyword .search_buttons span button {
-    background-color: orangered;
-    color: #fff;
+  background-color: orangered;
+  color: #fff;
 }
 
 .search_keyword input {
-    width: 30%;
+  width: 30%;
 }
