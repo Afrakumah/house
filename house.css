@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Oswald&family=Outfit:wght@500&family=Roboto:wght@300&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
@@ -35,11 +34,15 @@
 }
 
 .background_mage {
-  background-size:cover ;
-  background-image:linear-gradient(180deg, rgb(219, 218, 218) 0%, rgba(18,6,5,0.40948879551820727)
-   0%), url('images/interior1.jpg');
-   background-position: center;
-   background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      180deg,
+      rgb(219, 218, 218) 0%,
+      rgba(18, 6, 5, 0.40948879551820727) 0%
+    ),
+    url("images/interior1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .logo_menu {
@@ -81,8 +84,8 @@
 
 .Amazing span {
   font-family: "Roboto", cursive;
-  font-size: 3rem;
-  font-weight: 400;
+  font-size: 2.5rem;
+  font-weight: 200;
 }
 
 .overview_price {
@@ -92,7 +95,6 @@
   margin-top: 1rem;
   margin-bottom: 4rem;
 }
-
 
 .forward {
   display: flex;
@@ -108,7 +110,7 @@
   padding: 0.6rem 1.5rem;
   color: grey;
   font-size: 13px;
-  border: 0.5px solid grey
+  border: 0.5px solid grey;
 }
 
 .form_input {
@@ -144,7 +146,7 @@
 }
 
 .exhibition_header span {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: "Roboto", cursive;
   font-weight: 600;
 }
@@ -163,13 +165,12 @@
 }
 
 .first_exhibition div img {
-  height: 200px;
+  height: 180px;
   width: 200px;
-/* position: relative; */
 }
 
 .firstimage_about li {
-list-style: none;
+  list-style: none;
 }
 
 .firstimage_about div {
@@ -185,10 +186,30 @@ list-style: none;
   gap: 2rem;
 }
 
+.first_exhibition {
+  position: relative;
+}
+
+.positions p {
+  position: absolute;
+  color: #fff;
+  top: 150px;
+  left: 5px;
+}
+
+.positions .sales {
+  position: absolute;
+  top: 1rem;
+  background-color: #353136;
+  color: #fff;
+  left: 8rem;
+  font-size: 12px;
+}
+
 .firstimage_about {
-  font-size: 0.8rem;
+  font-size: 12px;
   font-family: "Roboto", cursive;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   font-weight: 400;
 }
 
