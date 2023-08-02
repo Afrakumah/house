@@ -43,21 +43,23 @@
     url("images/interior1.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  height: 70vh;
 }
 
 .logo_menu {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 2rem 3rem;
   color: #fff;
-  padding-right: 13%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .logo_menu nav ul {
   display: flex;
   gap: 10px;
   list-style: none;
+  padding-right: 20px;
 }
 
 .logo_menu nav ul li a {
@@ -69,6 +71,7 @@
   font-family: "Roboto", cursive;
   font-size: 1.5rem;
   font-weight: 600;
+  padding-right: 50px;
 }
 
 .main_page .logo_menu .contact_color li a {
@@ -80,7 +83,7 @@
   flex-direction: column;
   color: #fff;
   padding-left: 17%;
-  margin-top: 1rem;
+  margin-top: 4rem;
 }
 
 .Amazing span {
@@ -93,8 +96,7 @@
   font-family: "Roboto", cursive;
   font-size: 1.5rem;
   font-weight: 500;
-  margin-top: 1rem;
-  margin-bottom: 4rem;
+  margin-top: 30px;
 }
 
 .forward {
@@ -111,7 +113,7 @@
   padding: 0.6rem 1.5rem;
   color: grey;
   font-size: 13px;
-  border: 0.5px solid grey;
+  border: 0.5px solid rgb(179, 177, 177);
 }
 
 .form_input {
@@ -129,7 +131,7 @@
 
 .forward button {
   background-color: transparent;
-  border: 0.5px solid grey;
+  border: 0.5px solid rgb(179, 177, 177);
   border-radius: 3px;
   padding: 0.5rem 0.5rem;
   font-size: 12px;
@@ -138,43 +140,50 @@
 .forward .search {
   background-color: orangered;
   color: #fff;
+  border: 0;
 }
 
 /* find your home section */
 .exhibition {
   padding-left: 18%;
-  margin-top: 3rem;
+  margin-top: 0.5rem;
+  background-color: #eeeeee;
+
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .exhibition_header span {
   font-size: 1.5rem;
   font-family: "Roboto", cursive;
-  font-weight: 600;
+  font-weight: 400;
 }
 
-/* .exhibition button {
-  display: flex; 
-  gap: 8px;
-  margin-top: 2rem;
-} */
-
-.exhibition nav {
+.exhition_btns {
   display: flex;
-  padding-left: 68%;
-  gap: 8px;
-  margin-top: 2rem;
-} 
+  justify-content: flex-end;
+  padding-right: 19rem;
+  gap: 6px;
+  margin-top: 15px;
+}
 
- .exhibition nav ul {
+.exhition_btns button {
   border: 1px solid orangered;
-  border-radius: 2px;
+  border-radius: 3px;
   color: orangered;
-  font-weight: 400;
+  font-size: 10px;
+  padding: 4px 4px;
+  background: transparent;
 }
 
 .first_exhibition div img {
   height: 160px;
   width: 180px;
+  /* making the images edge sharp */
+
+  /* border: 1px solid rgb(179, 177, 177);
+  border-radius: 5px;
+  padding: 3px; */
 }
 
 .firstimage_about li {
@@ -203,7 +212,7 @@
   color: #fff;
   top: 130px;
   left: 5px;
-  font-weight: 400
+  font-weight: 400;
 }
 
 .positions .sales {
@@ -211,7 +220,7 @@
   top: 15px;
   background-color: #535153;
   color: #fff;
-  left:  110px;
+  left: 110px;
   font-size: 12px;
 }
 
@@ -221,22 +230,46 @@
 }
 
 .firstimage_about p {
-      text-align: center;
+  text-align: center;
 }
 
- /* meet team section starts here */
- .meet_team {
+/* meet team section starts here */
+.meet_team {
   padding-left: 18%;
-  margin-top: 3rem;
+
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
- .team span {
+.team span {
   font-size: 1.5rem;
   font-family: "Roboto", cursive;
-  font-weight: 600;
- }
+  font-weight: 500;
+}
 
- .team_one div img {
-  height: 400px;
-  width: 250px;
+.all_teams {
+  display: flex;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+
+.team_one div img {
+  height: 260px;
+  width: 180px;
+  background: linear-gradient(
+    180deg,
+    rgb(219, 218, 218) 0%,
+    rgba(18, 6, 5, 0.40948879551820727) 0%);
+}
+
+.team_one {
+  position: relative;
+}
+
+.team_one .names {
+  position: absolute;
+  top: 210px;
+  left: 40px;
+  color: #fff;
+  font-size: 15px;
 }
