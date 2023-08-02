@@ -151,22 +151,29 @@
   font-weight: 600;
 }
 
-.exhibition nav {
-  display: flex;
-  padding-left: 70%;
+/* .exhibition button {
+  display: flex; 
   gap: 8px;
   margin-top: 2rem;
-}
+} */
 
-.exhibition nav ul {
+.exhibition nav {
+  display: flex;
+  padding-left: 68%;
+  gap: 8px;
+  margin-top: 2rem;
+} 
+
+ .exhibition nav ul {
   border: 1px solid orangered;
   border-radius: 2px;
   color: orangered;
+  font-weight: 400;
 }
 
 .first_exhibition div img {
-  height: 180px;
-  width: 200px;
+  height: 160px;
+  width: 180px;
 }
 
 .firstimage_about li {
@@ -193,26 +200,42 @@
 .positions p {
   position: absolute;
   color: #fff;
-  top: 150px;
+  top: 130px;
   left: 5px;
+  font-weight: 400
 }
 
 .positions .sales {
   position: absolute;
-  top: 1rem;
-  background-color: #353136;
+  top: 15px;
+  background-color: #535153;
   color: #fff;
-  left: 8rem;
+  left:  110px;
   font-size: 12px;
 }
 
 .firstimage_about {
-  font-size: 12px;
-  font-family: "Roboto", cursive;
+  font-size: 13px;
   margin-top: 0.5rem;
-  font-weight: 400;
 }
 
 .firstimage_about p {
-  padding-left: 2rem;
+      text-align: center;
+}
+
+ /* meet team section starts here */
+ .meet_team {
+  padding-left: 18%;
+  margin-top: 3rem;
+}
+
+ .team span {
+  font-size: 1.5rem;
+  font-family: "Roboto", cursive;
+  font-weight: 600;
+ }
+
+ .team_one div img {
+  height: 400px;
+  width: 250px;
 }
