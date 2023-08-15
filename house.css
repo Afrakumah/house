@@ -147,7 +147,7 @@
 .exhibition {
   padding-left: 18%;
   margin-top: 0.5rem;
-  background-color: #eeeeee;
+  background-color: rgb(238, 237, 237);
 
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -282,8 +282,9 @@
 /* new york city real estate starts here */
 .NewYork {
   padding-left: 18%;
-  background-color: #191919;
+  background-color: rgb(238, 237, 237);
   padding-top: 4rem;
+  padding-bottom: 8rem;
 }
 
 .NYC_estate span {
@@ -294,11 +295,8 @@
 
 /* image size */
 .first_estate img {
-  /* height: 180px; */
   height: 200px;
   width: 250px;
-  /* height: 160px;
-  width: 180px; */
   background: linear-gradient(
     180deg,
     rgb(219, 218, 218) 0%,
@@ -356,7 +354,6 @@
 }
 
 .one_container {
-  /* padding-top: 2rem; */
   padding-bottom: 4rem;
 }
 
@@ -369,7 +366,7 @@
 .All_estates {
   display: inline-grid;
   grid-template-columns: 1fr 1fr 1fr;
-
+  position: relative;
   column-gap: 18px;
   row-gap: 15px;
 }
@@ -378,11 +375,306 @@
   padding-bottom: 2rem;
 }
 
-/* .All_estates .load_more {
-  
+
+.All_estates .load_more {
+  /* display: flex; */
+  /* padding: 2rem; */
+  /* text-align: center; */
+  /* justify-content: center; */
+
+  position: absolute;
+  left: 19rem;
+  bottom: -4rem;
+
+  padding: 0.4rem 3rem;
+
+  color: orangered;
+  border: 1px solid orangered;
+  border-radius: 5px;
+  font-size: 18px;
+
+}
+
+
+/* our services */
+.our_services {
+  background-size: cover;
+  background-image: linear-gradient(
+      180deg,
+      rgb(219, 218, 218) 0%,
+      rgba(18, 6, 5, 0.40948879551820727) 0%
+    ),
+    url("images/couch.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+height: 55vh;
+  padding: 4rem 0;
+}
+
+.service_details {
+text-align: center;
+color: #fff;
+/* font-weight: 400; */
+}
+
+.service_details span{
+  font-size: 1.5rem;
+  font-family: "Roboto", cursive;
+  font-weight: 400;
+}
+
+.first_box {
+  background-color: #fff;
+  height: 270px;
+  width: 280px;
+  text-align: center;
+}
+
+.first_box i {
+padding: 2.5rem 0;
+color: orangered;
+font-size: 2rem;
+}
+
+.boxes .first_box p  {
+  padding-bottom: 1rem;
+  font-weight: 300;
+}
+
+.first_box button {
+  background: none;
+  border: none;
+  color: orangered;
+}
+
+.boxes {
   display: flex;
-  align-items: center;
-  padding: 2rem;
- justify-content: center;
- 
-} */
+  justify-content: center;
+  gap: 0.5rem;
+  padding-top: 2rem;
+}
+
+
+
+
+
+
+/* from our blog  */
+.blogs {
+  padding: 4rem 0;
+  padding-left: 18%;
+}
+
+.blog_details span {
+  font-size: 1.5rem;
+  font-family: "Roboto", cursive;
+  font-weight: 500;
+}
+
+.first_blog img {
+  height: 160px;
+  width: 180px;
+border-radius: 3px;
+/* opacity: 4; */
+
+  background: linear-gradient( 
+360deg
+, rgb(219, 218, 218) 0%, rgba(18, 6, 5, 0.40948879551820727) 0% );
+
+}
+
+.first_blog .calendar {
+  display: flex;
+  font-size: 12px;
+gap: 3px;
+padding: 5px 0;
+}
+
+.first_blog .calendar li {
+  list-style: none;
+}
+
+.first_blog .calendar li i {
+   padding: 0 3px;
+}
+
+.first_blog button {
+  background: none;
+  border: none;
+  color: orangered;
+  padding: 10px 0;
+}
+
+.first_blog p {
+  font-size: 12px;
+}
+.first_blog div p {
+  font-weight: 600;
+  font-size: 14px;
+  padding-bottom: 3px;
+
+}
+
+
+.all_blogs {
+  display: flex;
+  padding-top: 2rem;
+ gap: 1.5rem;
+ /* text-align: justify; */
+}
+
+.first_blog .user {
+  padding-top: 5px;
+  list-style: none;
+font-size: 12px;
+}
+
+
+
+
+/* footer starts here */
+.about_site p {
+font-size: 12px;
+}
+
+.about_site li {
+  font-family: "Roboto", cursive;
+  font-size: 1rem;
+  list-style: none;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+.about_site button {
+  border: none;
+  background: none;
+  color: aliceblue;
+  padding-top: 1rem;
+}
+
+.first_footer {
+display: flex;
+justify-content: center;
+background-color: #353136;
+padding: 4rem 0;
+padding-right: 10%;
+gap: 4rem;
+color: aliceblue;
+font-size: 15px;
+}
+
+
+
+.seconds {
+  padding-left: 3rem;
+}
+.seconds li {
+list-style: none;
+padding-top: 1.5rem;
+padding-bottom: 1rem;
+}
+
+.seconds button {
+  border: none;
+  background: none;
+  color: aliceblue;
+  padding-top: 1rem;
+}
+
+.thirds li {
+  list-style: none;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  }
+  .thirds button {
+    border: none;
+    background: none;
+    color: aliceblue;
+    padding-top: 1rem;
+  }
+
+  .thirds .angles {
+    padding-left: 2rem;
+  }
+
+
+
+  .second_footer  .tired{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+
+justify-content: space-between;
+padding-left: 12%;
+padding-top: 2rem;
+font-size: 15px;
+
+padding-right: 1.5rem;
+/* height: 60vh;
+padding-bottom: 4rem; */
+  }
+
+  .second_footer  li {
+    list-style: none;
+  }
+
+  .second_footer .privacy {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .second_icons nav ul {
+    display: flex;
+    gap: 5px;
+  }
+
+  .second_icons nav li {
+    list-style: none;
+  }
+  
+  .second_icons nav ul li a {
+    color: aliceblue;
+  }
+
+
+  .second_footer .fa-angle-up {
+    border-radius: 3px;
+   background-color: orange;
+   padding: 10px;
+  
+
+  }
+
+  /* last footer starts here */
+  .last_footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4rem;
+    gap: 20px;
+  }
+
+  .last_icons {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+  }
+.last_footer .last {
+  font-size: 1.5rem;
+  font-weight: 600;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   align-items: center;
+}
+.last i {
+  background-color: blue;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+
+}
+
