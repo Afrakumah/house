@@ -162,7 +162,7 @@
 .exhition_btns {
   display: flex;
   justify-content: flex-end;
-  padding-right: 19rem;
+  padding-right: 18rem;
   gap: 6px;
   margin-top: 15px;
 }
@@ -647,19 +647,22 @@
   display: flex;
   gap: 5px;
 }
-.last {
+
+.last_footer span {
   font-size: 1.5rem;
-  font-weight: 600;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
+  font-weight: 400;
 }
 .last i {
   background-color: blue;
   color: aliceblue;
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-  text-align: center;
+  /* text-align: center; */
+  font-size: 1.5rem;
+  padding: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
