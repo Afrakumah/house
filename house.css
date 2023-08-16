@@ -261,10 +261,13 @@
   width: 180px;
   background: linear-gradient(
     180deg,
-    rgb(219, 218, 218) 0%,
-    rgba(18, 6, 5, 0.40948879551820727) 0%
+    rgba(11, 11, 11,1) 0%,
+    rgb(25, 25, 27) 35%,
+    rgb(13, 13, 14) 100%
   );
+
   border-radius: 2px;
+  opacity: 0.9;
 }
 
 .team_one {
@@ -298,11 +301,13 @@
   height: 200px;
   width: 250px;
   background: linear-gradient(
-    180deg,
+    360deg,
     rgb(219, 218, 218) 0%,
     rgba(18, 6, 5, 0.40948879551820727) 0%
   );
   border-radius: 3px;
+
+  opacity: 0.9;
 }
 
 .estate_label {
@@ -397,9 +402,9 @@
 .our_services {
   background-size: cover;
   background-image: linear-gradient(
-      180deg,
-      rgb(219, 218, 218) 0%,
-      rgba(18, 6, 5, 0.40948879551820727) 0%
+      360deg,
+      rgba(124, 152, 164, 1) 0%,
+      rgba(86, 136, 157, 0.6867997198879552) 0%
     ),
     url("images/couch.jpg");
   background-position: center;
@@ -467,10 +472,10 @@
   height: 160px;
   width: 180px;
   border-radius: 3px;
-  /* opacity: 4; */
+  opacity: 0.8;
 
   background: linear-gradient(
-    360deg,
+    180deg,
     rgb(219, 218, 218) 0%,
     rgba(18, 6, 5, 0.40948879551820727) 0%
   );
@@ -511,7 +516,6 @@
   display: flex;
   padding-top: 2rem;
   gap: 1.5rem;
-  /* text-align: justify; */
 }
 
 .first_blog .user {
