@@ -162,7 +162,7 @@
 .exhition_btns {
   display: flex;
   justify-content: flex-end;
-  padding-right: 18rem;
+  padding-right: 17rem;
   gap: 6px;
   margin-top: 15px;
 }
@@ -260,14 +260,18 @@
   height: 260px;
   width: 180px;
   background: linear-gradient(
-    180deg,
+    270deg,
     rgba(11, 11, 11,1) 0%,
     rgb(25, 25, 27) 35%,
     rgb(13, 13, 14) 100%
   );
 
+/* background: linear-gradient(to bottom, rgba(255,255,255,0.225) 0%, rgba(255,255,255,0.007)
+50%,rgba(18,6,5,0.686)100%, 
+); */
+
   border-radius: 2px;
-  opacity: 0.9;
+  opacity: 0.85;
 }
 
 .team_one {
@@ -662,11 +666,227 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  /* text-align: center; */
+
   font-size: 1.5rem;
   padding: 5px;
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+
+
+
+/* media query starts here */
+/* extra small devices */
+/* media query starts here */
+/* extra small devices */
+@media only screen and (max-width: 600px) {
+
+/* .header {
+  height: 15px;
+  font-size: 12px;
+} */
+
+/* .logo_menu span {
+  font-size: 1rem; 
+} */
+
+
+.logo_menu nav ul { 
+display: none;
+}
+
+/* hamburger menu */
+ .burger::before,
+  .burger::after,
+  .burger input {
+    display: block;
+
+    content: "";
+
+    width: 60px;
+
+    height: 8px;
+
+    background-color: rgb(255, 165, 128);
+
+    transform-origin: left center;
+
+    transition: all 0.25s ease-in-out;
+
+
+    margin-right: 6rem;
+  }
+
+  /* rotate to 45 deg when the input inside the burger has a checkbox which is checked */
+
+  .burger:has(input:checked)::before {
+    rotate: 45deg;
+
+    width: 40px;
+  }
+
+  .burger:has(input:checked)::after {
+    rotate: -45deg;
+
+    width: 40px;
+  }
+
+  .burger:has(input:checked) + nav ul {
+    display: block;
+
+    position: absolute;
+
+    top: 2.3rem;
+
+    background-color: #7b5656;
+
+    left: 0;
+
+    right: 0;
+
+    text-align: center;
+
+    padding: 1rem 0;
+    opacity: 1;
+  }
+
+  .burger:has(input:checked) + nav ul li a {
+    /* border-bottom: 1px solid white;  for the lines in the nav*/
+    margin-top: 0.5rem;
+    display: block;
+  }
+
+  .burger {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 6px;
+
+    position: absolute;
+
+    right: 10px;
+  }
+
+  .burger input:checked {
+    width: 0;
+
+    opacity: 0;
+  }
+
+  .burger input {
+    appearance: none;
+  }
+
+  /* .hero {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  } */
+
+
+  .logo_menu {
+        justify-content: space-around;
+            margin-bottom: 0;
+    margin-top: 20px;
+  }
+
+
+
+  /* overview starts here */
+  .overview {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    /* padding-left: 17%; */
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.Amazing span {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.overview_price {
+    margin-top: 20px;
+}
+
+.exhibition {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.all_exhibitions {
+/*   
+    gap: 2rem; */
+
+    flex-direction: column; 
+        align-items: center;
+}
+
+.exhition_btns {
+   padding-right: 1rem;
+}
+
+
+/* meet team starts here */
+/* .meet_team {
+   display: flex;
+  flex-direction: column;
+} */
+
+
+
+/* newyork starts here */
+.All_estates {
+    /* display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    column-gap: 18px;
+    row-gap: 15px; */
+    display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.first_estate img {
+    height: 200px;
+    width: 250px;
+}
+
+
+.All_estates .load_more {
+    position: absolute;
+    left: 19rem;
+    bottom: -4rem;
+    padding: 0.4rem 3rem;
+    color: orangered;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* our services */
+.first_box {
+  height: 220px;
+  width: 250px;
+}
+
+.our_services {
+height: 80vh;
+
+}
+
+.blogs {
+  padding: 4rem 0;
+
+}
+
 }
