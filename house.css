@@ -262,33 +262,49 @@ padding-left: 45%; */
 .all_teams {
   display: flex;
   gap: 1rem;
-  padding-top: 2rem;
-}
-
-.team_one div img {
-  height: 260px;
-  width: 180px;
-  border-radius: 2px;
-
-  background: linear-gradient(to bottom, transparent, black);
-
-  /* background: linear-gradient(
-    360deg,
-    rgba(0, 0, 0, 0.7708333333333334) 0%,
-    rgba(48, 44, 40, 0) 50%
-  ) ; */
+  margin-top: 2rem;
+  /* position: relative; */
+  justify-content: center;
+  padding-right: 14rem;
 }
 
 .team_one {
   position: relative;
+  margin-bottom: 5rem;
 }
+
+.all_teams img {
+  width: 13rem;
+  height: 20rem;
+  border-radius: 5px;
+}
+
+.img {
+  position: relative;
+  display: inline-block;
+}
+
+.faces::before {
+  content:"" ;
+  position: absolute;
+  top: 60%;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(to bottom, transparent, black);
+border-radius: 3px;
+  opacity: 0.8;
+}
+
 
 .team_one .names {
   position: absolute;
-  top: 210px;
-  left: 40px;
+  left: 0;
+  right: 0;
+  bottom: 2rem;
   color: #fff;
-  font-size: 15px;
+  font-size: 13px;
+  text-align: center;
 }
 
 /* new york city real estate starts here */
